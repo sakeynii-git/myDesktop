@@ -1,0 +1,8 @@
+application: helloworld
+version: 1
+rentime: php55
+api_version: 1
+
+handlers:
+- url: /.*
+  script: helloworld.php
